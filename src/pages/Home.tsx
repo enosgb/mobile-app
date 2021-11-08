@@ -22,23 +22,21 @@ export const Home: React.FC = () => {
                 <footer className ="tabbar">
                     <button className="tabbar__button">
                         <GoGraph/>
+                        <p className="tabbar__title">Inicio</p>
                     </button>
                     <button className="tabbar__button">
                         <BsBoxSeam/>
+                        <p className="tabbar__title">Produtos</p>
                     </button>
                     <button className="tabbar__button">
                         <FiUser/>
+                        <p className="tabbar__title">Clientes</p>
                     </button>
                     <button className="tabbar__button">
                         <MdOutlineAttachMoney/>
+                        <p className="tabbar__title">Finanças</p>
                     </button>                    
                 </footer>
-                <footer className ="tabbar">
-                    <p className="tabbar__title">Inicio</p>
-                    <p className="tabbar__title">Produtos</p>
-                    <p className="tabbar__title">Clientes</p>
-                    <p className="tabbar__title">Finanças</p>
-                </footer>                    
             </div>
         </div>
     );
